@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 50vw;
+    border: solid 2px;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 0 gray ;
+    
+}
+
+.row1, .row2{
+   display: flex; 
+   
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 15px;
+    font-weight: bold;
+}
+input{
+    border: solid 2px;
+    padding:5px;
+}
+select{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid;
+}
+label{
+    margin-bottom: 10px;
+}
